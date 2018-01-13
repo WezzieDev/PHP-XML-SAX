@@ -1,0 +1,25 @@
+{
+  "name": "wezziedev/lib-php-xml-sax",
+  "description": "An advanced, but lightweight PHP XML SAX parsing library.",
+  "type": "library",
+  "require": {},
+  "require-dev": {
+    "phpunit/phpunit": "^6.5",
+    "php": "^7.1"
+  },
+  "license": "Apache-2.0",
+  "authors": [
+    {
+      "name": "Wesley Vestjens",
+      "email": "contact@wezziedev.nl",
+      "homepage": "https://github.com/WezzieDev"
+    }
+  ],
+  "minimum-stability": "stable",
+  "autoload": {
+    "psr-4": {
+      "WezzieDev\\PXS\\": "src/",
+      "WezzieDev\\PXS\\Test\\": "tests/"
+    }
+  }
+}
