@@ -18,8 +18,8 @@
   "minimum-stability": "stable",
   "autoload": {
     "psr-4": {
-      "WezzieDev\\PXS\\": "src/",
-      "WezzieDev\\PXS\\Test\\": "tests/"
+      "WezzieDev\\PXS\\": "src/PXS/",
+      "WezzieDev\\PXS\\Test\\": "tests/PXS/"
     }
   }
 }
